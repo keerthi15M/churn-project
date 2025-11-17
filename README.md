@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 📊 Customer Churn Prediction Project
 Author: Keerthi M
 GitHub: keerthi15M
 Email: keerthi1052031@gmail.com
 Last Updated: <17/11/2025>
-=======
-# 📊 Customer Churn Prediction Project
->>>>>>> 379ac7f1950288df21f1fc96347fdc32d3ea49ea
 
 🔎 Project Overview
 Understanding when customers might churn is crucial for subscription-based and services companies. In this project, we build and deploy a machine-learning pipeline that predicts customer churn using demographic and service usage data. A user-friendly web app built with Streamlit allows real-time predictions from user input.
@@ -50,6 +46,7 @@ Chose XGBoost for best performance
 Model artifacts
 xgb_churn_model.pkl → Trained XGBoost model
 training_columns.pkl → List of column names used for prediction (ensures correct order/features in the app)
+
 🖥️ Streamlit Web App
 The web app (app.py) allows users to enter new customer details and get a churn prediction.
 
@@ -67,14 +64,14 @@ pip install -r requirements.txt
 streamlit run app.py
 Then open http://localhost:8501 in your browser to view the dashboard.
 
-#Features:
+# Features:
 Two-column form layout for customer inputs
 Example preset button for “High Risk of Churn” scenario
 Real-time delivery of churn prediction (yes/no) and probability
 “See input used for prediction” expander to view what was entered
 Responsive design and user-friendly interface
 
-## 📝 Key Business Insights
+📝 Key Business Insights
 Based on the developed model and analysis, some significant findings include:
 Customers with short tenure (newer customers) are more likely to churn.
 Monthly charges and TotalCharges show a relationship: higher charges often correlate with churn.
@@ -83,7 +80,7 @@ Senior citizens and those without partners/dependents show different churn behav
 The model gives business teams a probability score, helping them prioritise retention efforts.
 These insights should be updated to match your EDA results and model findings.
 
-## 📋 Requirements
+📋 Requirements
 Your environment should include the following (versions may vary slightly):
 pandas==2.3.3
 numpy==2.3.4
@@ -97,19 +94,19 @@ seaborn==0.13.2
 Install with:
 pip install -r requirements.txt
 
-## 📌Important Notes
+📌 Important Notes
 Ensure you run streamlit run app.py from the root of the project (where models/ folder exists).
 If you used a different training-script name or dataset path, update paths accordingly.
 If the model files grow larger, consider using Git LFS
  or storing them externally and using a download link.
 
-## 🙌Acknowledgements
+🙌 Acknowledgements
 Data science & machine learning community
 Open-source libraries (pandas, scikit-learn, xgboost, streamlit)
 Internship program at Codec Technologies (or your host organisation)
 
-## 📬Contact
+📬 Contact
 Keerthi — keerthi15M
 📧 keerthi1052031@gmail.com
 
-Feel free to connect if you have any questions, want to collaborate, or discuss data-science projects! please format it
+Feel free to connect if you have any questions, want to collaborate, or discuss data-science projects! 
