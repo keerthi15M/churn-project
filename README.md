@@ -23,20 +23,34 @@ A user-friendly web app built with Streamlit allows real-time predictions from u
 ---
 ## 📂 Project Structure  
 ```
-churn-project/
-│── app.py                      ← Streamlit web app
-│── train_model.py              ← Script to train model and save artifacts
-│── requirements.txt            ← Required Python libraries
-│── README.md                   ← Project documentation
-├── data/                       ← Raw dataset
-│   └── Telco-Customer-Churn.csv
-├── models/                     ← Saved model and metadata
-│   ├── xgb_churn_model.pkl
-│   └── training_columns.pkl
-├── notebooks/                  ← EDA & model development
-│   └── 01_data_exploration.ipynb
-├── .gitignore                  ← Files excluded from repo
-└── venv/                       ← Virtual environment directory (ignored in Git)
+CHURN-PROJECT/
+├── app.py                         # Streamlit app
+├── requirements.txt               # Required Python libraries
+├── README.md                      # Project documentation
+├── .gitignore                     # Files excluded from Git
+│
+├── data/
+│   ├── raw/
+│   │   └── Telco-Customer-Churn.csv
+│   └── processed/                 # (optional) processed datasets
+│
+├── images/                        # EDA & visualization images
+│   ├── churn_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── feature_importance.png
+│   └── tenure_vs_churn.png
+│
+├── models/                        # Saved model artifacts
+│   ├── training_columns.pkl
+│   └── xgb_churn_model.pkl
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   └── .ipynb_checkpoints/
+│
+├── src/                           # (optional) Python modules
+├── reports/                       # (optional) analysis reports
+└── venv/                          # Virtual environment (ignored in Git)
 ```
 
 ---
@@ -59,13 +73,13 @@ churn-project/
 ---
 ## 📈 Exploratory Data Analysis (EDA)
 1️⃣ Churn Distribution
-images/churn_distribution.png
+- images/churn_distribution.png
 2️⃣ Correlation Heatmap
-images/correlation_heatmap.png
+- images/correlation_heatmap.png
 3️⃣ Tenure Distribution
-images/tenure_vs_churn.png
+- images/tenure_vs_churn.png
 4️⃣ feature importance
-images/feature_importance.png
+- images/feature_importance.png
 
 ---
 ## 🤖 Model Performance Comparison
