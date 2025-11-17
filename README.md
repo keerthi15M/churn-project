@@ -59,13 +59,13 @@ churn-project/
 ---
 ## 📈 Exploratory Data Analysis (EDA)
 1️⃣ Churn Distribution
-![Churn Distribution](churn_distribution-1.png)
+images/churn_distribution.png
 2️⃣ Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
+images/correlation_heatmap.png
 3️⃣ Tenure Distribution
-![Tenure vs Churn](tenure_vs_churn-1.png)
+images/tenure_vs_churn.png
 4️⃣ feature importance
-i![Feature Importance](feature_importance-1.png)
+images/feature_importance.png
 
 ---
 ## 🤖 Model Performance Comparison
