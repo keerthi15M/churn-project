@@ -1,5 +1,3 @@
-# Customer Churn Prediction Project
-Updated by Keerthi on 17th November, 2025
 # 📊 Customer Churn Prediction Project
 
 **Author:** Keerthi M  
