@@ -22,20 +22,22 @@ A user-friendly web app built with Streamlit allows real-time predictions from u
 
 ---
 ## 📂 Project Structure  
-📁 churn-project/
-├── app.py                  # Streamlit web app
-├── train_model.py          # Script to train model and save artifacts
-├── requirements.txt        # Required Python libraries
-├── README.md               # Project documentation
-├── .gitignore              # Files excluded from repo
-├── training_columns.pkl    # Saved column order for model input
-├── venv/                   # Virtual environment (ignored in Git)
-├── data/
-│   └── Telco-Customer-Churn.csv  # Raw dataset
-├── models/
-│   └── xgb_churn_model.pkl       # Trained model file
-└── notebooks/
-    └── 01_data_exploration.ipynb # EDA & model development
+```
+churn-project/
+│── app.py                      ← Streamlit web app
+│── train_model.py              ← Script to train model and save artifacts
+│── requirements.txt            ← Required Python libraries
+│── README.md                   ← Project documentation
+├── data/                       ← Raw dataset
+│   └── Telco-Customer-Churn.csv
+├── models/                     ← Saved model and metadata
+│   ├── xgb_churn_model.pkl
+│   └── training_columns.pkl
+├── notebooks/                  ← EDA & model development
+│   └── 01_data_exploration.ipynb
+├── .gitignore                  ← Files excluded from repo
+└── venv/                       ← Virtual environment directory (ignored in Git)
+```
 
 ---
 ## 📊 Dataset Details  
