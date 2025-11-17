@@ -41,7 +41,7 @@ churn-project/
 
 ---
 ## 📊 Dataset Details  
-**Source:** [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn) _(or your dataset if used)_  
+**Source:** [Telco Customer Churn dataset](https://www.kaggle.com/blastchar/telco-customer-churn) 
 **Key fields included:**  
 - `CustomerID`  
 - `Gender`  
@@ -53,6 +53,27 @@ churn-project/
 - `MonthlyCharges`  
 - `TotalCharges`  
 - `Churn` (target: Yes/No)
+
+---
+
+---
+## 📈 Exploratory Data Analysis (EDA)
+1️⃣ Churn Distribution
+![Churn Distribution](churn_distribution-1.png)
+2️⃣ Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
+3️⃣ Tenure Distribution
+![Tenure vs Churn](tenure_vs_churn-1.png)
+4️⃣ feature importance
+i![Feature Importance](feature_importance-1.png)
+
+---
+## 🤖 Model Performance Comparison
+| Model                  | Accuracy | Precision | Recall   | F1-Score | ROC-AUC  |
+| ---------------------- | -------- | --------- | -------- | -------- | -------- |
+| Logistic Regression    | 0.78     | 0.74      | 0.66     | 0.69     | 0.84     |
+| Random Forest          | 0.82     | 0.79      | 0.72     | 0.75     | 0.88     |
+| **XGBoost (Selected)** | **0.85** | **0.81**  | **0.76** | **0.78** | **0.91** |
 
 ---
 ## 🧠 Data Processing & Modeling  
@@ -136,4 +157,4 @@ Internship program at Codec Technologies (or your host organisation)
 Keerthi — keerthi15M
 - 📧 keerthi1052031@gmail.com
 
-Feel free to connect if you have any questions, want to collaborate, or discuss data-science projects!
+Feel free to connect if you have any questions, want to collaborate, or discuss data-science projects! 
