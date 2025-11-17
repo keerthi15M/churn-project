@@ -95,7 +95,7 @@ Real-time delivery of churn prediction (yes/no) and probability
 “See input used for prediction” expander to view what was entered
 Responsive design and user-friendly interface
 
-##📝 Key Business Insights
+## 📝 Key Business Insights
 Based on the developed model and analysis, some significant findings include:
 Customers with short tenure (newer customers) are more likely to churn.
 Monthly charges and TotalCharges show a relationship: higher charges often correlate with churn.
@@ -104,7 +104,7 @@ Senior citizens and those without partners/dependents show different churn behav
 The model gives business teams a probability score, helping them prioritise retention efforts.
 These insights should be updated to match your EDA results and model findings.
 
-##📋 Requirements
+## 📋 Requirements
 Your environment should include the following (versions may vary slightly):
 pandas==2.3.3
 numpy==2.3.4
@@ -118,18 +118,18 @@ seaborn==0.13.2
 Install with:
 pip install -r requirements.txt
 
-##📌 Important Notes
+## 📌Important Notes
 Ensure you run streamlit run app.py from the root of the project (where models/ folder exists).
 If you used a different training-script name or dataset path, update paths accordingly.
 If the model files grow larger, consider using Git LFS
  or storing them externally and using a download link.
 
-##🙌 Acknowledgements
+## 🙌Acknowledgements
 Data science & machine learning community
 Open-source libraries (pandas, scikit-learn, xgboost, streamlit)
 Internship program at Codec Technologies (or your host organisation)
 
-##📬 Contact
+## 📬Contact
 Keerthi — keerthi15M
 📧 keerthi1052031@gmail.com
 
