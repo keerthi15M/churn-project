@@ -88,6 +88,7 @@ pip install -r requirements.txt
 streamlit run app.py
 Then open http://localhost:8501 in your browser to view the dashboard.
 
+---
 Features:
 Two-column form layout for customer inputs
 Example preset button for “High Risk of Churn” scenario
