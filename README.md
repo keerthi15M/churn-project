@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 📊 Customer Churn Prediction Project
 Author: Keerthi M
 GitHub: keerthi15M
 Email: keerthi1052031@gmail.com
 Last Updated: <17/11/2025>
+=======
+# 📊 Customer Churn Prediction Project
+>>>>>>> 379ac7f1950288df21f1fc96347fdc32d3ea49ea
 
 🔎 Project Overview
 Understanding when customers might churn is crucial for subscription-based and services companies. In this project, we build and deploy a machine-learning pipeline that predicts customer churn using demographic and service usage data. A user-friendly web app built with Streamlit allows real-time predictions from user input.
