@@ -19,7 +19,7 @@ A user-friendly web app built with Streamlit allows real-time predictions from u
 - Store the trained model and column metadata for production use.  
 - Deploy a web application using Streamlit allowing business users to input customer details and view churn probability.  
 - Provide actionable insights for business teams to enact customer retention strategies.
-- 
+
 ---
 ## 📂 Project Structure  
 churn-project/
